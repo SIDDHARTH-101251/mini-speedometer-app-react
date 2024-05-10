@@ -1,0 +1,72 @@
+/* Write your CSS here */
+
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+  padding: 20px;
+}
+
+.image {
+  width: 100%;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.speed-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  border-style: solid;
+  border-width: 0;
+  border-radius: 5px;
+  height: 35px;
+  width: 120px;
+  margin: 12px;
+}
+
+.accelerate-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.apply-brake-button {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #94a3b8;
+  color: #94a3b8;
+}
+
+@media screen and (min-width: 768px) {
+  .image{
+    width: 60%;
+  }
+}
